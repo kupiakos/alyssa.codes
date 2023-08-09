@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |s|
   s.name          = "jekyll-theme-alyssa-codes"
-  s.version       = "0.2.0"
+  s.version       = "0.1.0"
   s.license       = "CC0-1.0"
   s.authors       = ["Alyssa Haroldsen"]
   s.email         = ["kupiakos@gmail.com"]
