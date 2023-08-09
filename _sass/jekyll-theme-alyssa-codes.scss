@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700');
 
 html {
-  background:#6C7989;
-  background: #6C7989 linear-gradient(#6C7989, #434B55) fixed;
+  background:#58499c;
+  background: #58499c linear-gradient(#58499c, #281a67) fixed;
   height: 100%;
 }
 
@@ -46,8 +46,8 @@ strong {
 
 header {
   border-radius: 8px 8px 0 0;
-  background:#C6EAFA;
-  background: linear-gradient(#DDFBFC, #C6EAFA);
+  background:#d3e7ff;
+  background: linear-gradient(#d3e7ff, #c1dbf9);
   position:relative;
   padding:15px 20px;
   border-bottom:1px solid #B2D2E1;
@@ -59,6 +59,7 @@ header {
     line-height:1.2;
     color:#069;
     text-shadow:rgba(#fff, 0.9) 0 1px 0;
+    font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   }
 
   &.without-description h1 {
