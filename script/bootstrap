@@ -1,5 +1,7 @@
 #!/bin/sh
 
+# If permissions fail, https://rvm.io/rvm/install
+
 set -e
 
 gem install bundler

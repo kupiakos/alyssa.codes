@@ -1,5 +1,7 @@
 title: alyssa.codes
-description: how can we make it better?
+description: code and things
 show_downloads: false
 google_analytics:
+github:
+  repository_url: https://github.com/kupiakos/alyssa.codes
 # theme: jekyll-theme-alyssa-codes

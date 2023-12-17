@@ -2,8 +2,8 @@
 @import url('https://fonts.googleapis.com/css?family=Lato:300italic,700italic,300,700');
 
 html {
-  background:#58499c;
-  background: #58499c linear-gradient(#58499c, #281a67) fixed;
+  background:#412ba7;
+  background: linear-gradient( #040015 0%, #100058 70%, rgb(56, 27, 184) 100%) fixed;
   height: 100%;
 }
 
@@ -11,7 +11,7 @@ body {
   padding:50px 0;
   margin:0;
   font:14px/1.5 Lato, "Helvetica Neue", Helvetica, Arial, sans-serif;
-  color:#555;
+  color:#ccc;
   font-weight:300;
   background:url('../images/checker.png') fixed;
   min-height: calc(100% - 100px);
@@ -20,7 +20,7 @@ body {
 .wrapper {
   width:740px;
   margin:0 auto;
-  background:#DEDEDE;
+  // background:#dedede;
   border-radius: 8px;
   box-shadow: rgba(#000, 0.2) 0 0 0 1px, rgba(#000, 0.45) 0 3px 10px;
 }
@@ -30,7 +30,7 @@ header, section, footer {
 }
 
 a {
-  color:#069;
+  color:rgb(90, 185, 232);
   text-decoration:none;
 }
 
@@ -40,25 +40,32 @@ p {
 }
 
 strong {
-  color:#222;
+  color:#ada314;
   font-weight:700;
 }
 
+.github-icon {
+  height: 30px;
+}
+
 header {
-  border-radius: 8px 8px 0 0;
+  border-radius: 2px 2px 0px 0px;
   background:#d3e7ff;
-  background: linear-gradient(#d3e7ff, #c1dbf9);
+  background: linear-gradient(rgb(59, 0, 131), rgb(44, 0, 97));
   position:relative;
   padding:15px 20px;
-  border-bottom:1px solid #B2D2E1;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  // border-bottom:1px solid #0f0f0f;
 
   h1 {
     margin:0;
     padding:0;
     font-size:24px;
     line-height:1.2;
-    color:#069;
-    text-shadow:rgba(#fff, 0.9) 0 1px 0;
+    color:#bbb;
+    // text-shadow:rgba(#fff, 0.9) 0 1px 0;
     font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
   }
 
@@ -162,15 +169,15 @@ header {
 
 section {
   padding:15px 20px;
-  font-size:15px;
+  font-size:18px;
   border-top:1px solid #fff;
-  background: linear-gradient(#fafafa, #DEDEDE 700px);
+  background: #1f1f1f;
   border-radius: 0 0 8px 8px;
   position:relative;
 }
 
 h1, h2, h3, h4, h5, h6 {
-  color:#222;
+  color:#eee;
   padding:0;
   margin:0 0 20px;
   line-height:1.2;
@@ -189,11 +196,11 @@ h1 {
 }
 
 h2 {
-  color:#393939;
+  color:#d7d7d7;
 }
 
 h3, h4, h5, h6 {
-  color:#494949;
+  color:#ababab;
 }
 
 blockquote {
@@ -211,7 +218,7 @@ img {
 
 code, pre {
   font-family:Monaco, Bitstream Vera Sans Mono, Lucida Console, Terminal;
-  color:#333;
+  color:#eee;
   font-size:12px;
   overflow-x:auto;
 }
@@ -285,8 +292,9 @@ footer {
   overflow:hidden;
 
   a {
-    color:#fff;
+    color:#ccc;
     font-weight:bold;
+    font-size: 12px;
   }
 
   p {
@@ -301,6 +309,7 @@ footer {
 @media print, screen and (max-width: 740px) {
   body {
     padding:0;
+    height: 100%;
   }
 
   .wrapper {
